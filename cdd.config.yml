@@ -1,4 +1,4 @@
-# cdd-data configuration.
+# data-public configuration.
 # Paths are relative to this file's directory (data-public/).
 # Override with environment variables (uppercase key, CDD_ prefix).
 
