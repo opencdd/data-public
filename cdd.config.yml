@@ -1,0 +1,6 @@
+# cdd-data configuration.
+# Paths are relative to this file's directory (data-public/).
+# Override with environment variables (uppercase key, CDD_ prefix).
+
+models_ts_dir: ../opencdd-ts
+opencdd_ruby_dir: ../opencdd-ruby

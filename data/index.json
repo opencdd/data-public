@@ -1,0 +1,21 @@
+{
+  "dictionaries": [
+    {
+      "slug": "oceanrunner",
+      "parcelId": "OCEANRUNNER",
+      "title": "OceanRunner (sample)",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 20,
+        "property": 19,
+        "value_list": 1,
+        "value_term": 0,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    }
+  ]
+}
