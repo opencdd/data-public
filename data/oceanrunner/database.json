@@ -1,557 +1,1996 @@
 [
   {
-    "irdi": "AAA001",
-    "code": "AAA001",
+    "irdi": "ORA001",
+    "code": "ORA001",
     "preferred_name": "Vehicle",
+    "preferred_name_ml": {
+      "en": "Vehicle",
+      "fr": "Véhicule",
+      "ja": "車両"
+    },
     "definition": "device that transports people or goods",
+    "definition_ml": {
+      "en": "device that transports people or goods"
+    },
     "synonyms": [],
-    "type": "class",
+    "raw_properties": {
+      "MDC_P001_5": "ORA001",
+      "MDC_P004.en": "Vehicle",
+      "MDC_P004.fr": "Véhicule",
+      "MDC_P004.ja": "車両",
+      "MDC_P006.en": "device that transports people or goods",
+      "MDC_P010": "UNIVERSE",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB001,ORB004,ORB005,ORB002,ORB003,ORB006,ORB007,ORB008}"
+    },
+    "is_case_of": [],
+    "applicable_properties": [
+      "ORB001",
+      "ORB004",
+      "ORB005",
+      "ORB002",
+      "ORB003",
+      "ORB006",
+      "ORB007",
+      "ORB008"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
     "class_type": "ITEM_CLASS",
     "superclass": "UNIVERSE",
-    "is_case_of": [],
-    "applicable_properties": [
-      "AAAP001",
-      "AAAP002",
-      "AAAP003"
-    ],
-    "imported_properties": [],
-    "sub_class_selection": []
+    "superclass_type_property": "UNIVERSE",
+    "type": "class"
   },
   {
-    "irdi": "AAA010",
-    "code": "AAA010",
+    "irdi": "ORA010",
+    "code": "ORA010",
     "preferred_name": "Boat",
+    "preferred_name_ml": {
+      "en": "Boat"
+    },
     "definition": "vehicle that travels on the surface of water",
+    "definition_ml": {
+      "en": "vehicle that travels on the surface of water"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA010",
+      "MDC_P004.en": "Boat",
+      "MDC_P006.en": "vehicle that travels on the surface of water",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB010,ORB013,ORB011,ORB012,ORB015,ORB014}"
+    },
     "is_case_of": [],
     "applicable_properties": [
-      "AAAP010",
-      "AAAP011",
-      "AAAP012"
+      "ORB010",
+      "ORB013",
+      "ORB011",
+      "ORB012",
+      "ORB015",
+      "ORB014"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA020",
-    "code": "AAA020",
+    "irdi": "ORA020",
+    "code": "ORA020",
     "preferred_name": "Car",
+    "preferred_name_ml": {
+      "en": "Car"
+    },
     "definition": "vehicle that travels on paved roads",
+    "definition_ml": {
+      "en": "vehicle that travels on paved roads"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA020",
+      "MDC_P004.en": "Car",
+      "MDC_P006.en": "vehicle that travels on paved roads",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB020,ORB023,ORB026,ORB021,ORB024,ORB025,ORB022}"
+    },
     "is_case_of": [],
     "applicable_properties": [
-      "AAAP020",
-      "AAAP021",
-      "AAAP022"
+      "ORB020",
+      "ORB023",
+      "ORB026",
+      "ORB021",
+      "ORB024",
+      "ORB025",
+      "ORB022"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA030",
-    "code": "AAA030",
+    "irdi": "ORA030",
+    "code": "ORA030",
     "preferred_name": "Submarine",
+    "preferred_name_ml": {
+      "en": "Submarine"
+    },
     "definition": "vehicle that travels fully submerged beneath the water surface",
+    "definition_ml": {
+      "en": "vehicle that travels fully submerged beneath the water surface"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA030",
+      "MDC_P004.en": "Submarine",
+      "MDC_P006.en": "vehicle that travels fully submerged beneath the water surface",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB030,ORB032,ORB031,ORB033,ORB034}"
+    },
     "is_case_of": [],
     "applicable_properties": [
-      "AAAP030",
-      "AAAP031"
+      "ORB030",
+      "ORB032",
+      "ORB031",
+      "ORB033",
+      "ORB034"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA100",
-    "code": "AAA100",
+    "irdi": "ORA100",
+    "code": "ORA100",
     "preferred_name": "Transmedium Vehicle",
+    "preferred_name_ml": {
+      "en": "Transmedium Vehicle"
+    },
     "definition": "vehicle capable of operating on the water surface, on paved roads, and fully submerged",
+    "definition_ml": {
+      "en": "vehicle capable of operating on the water surface, on paved roads, and fully submerged"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA100",
+      "MDC_P004.en": "Transmedium Vehicle",
+      "MDC_P006.en": "vehicle capable of operating on the water surface, on paved roads, and fully submerged",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P013": "{ORA010,ORA020,ORA030}",
+      "MDC_P014": "{ORB100,ORB101,ORB102,ORB103,ORB104,ORB105}"
+    },
     "is_case_of": [
-      "AAA010",
-      "AAA020",
-      "AAA030"
+      "ORA010",
+      "ORA020",
+      "ORA030"
     ],
     "applicable_properties": [
-      "AAAP100",
-      "AAAP101",
-      "AAAP102",
-      "AAAP103"
+      "ORB100",
+      "ORB101",
+      "ORB102",
+      "ORB103",
+      "ORB104",
+      "ORB105"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "BBB001",
-    "code": "BBB001",
+    "irdi": "ORA300",
+    "code": "ORA300",
     "preferred_name": "OceanRunner",
+    "preferred_name_ml": {
+      "en": "OceanRunner"
+    },
     "definition": "brand of transmedium vehicles manufactured by OceanRunner Marine",
+    "definition_ml": {
+      "en": "brand of transmedium vehicles manufactured by OceanRunner Marine"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA100",
+    "raw_properties": {
+      "MDC_P001_5": "ORA300",
+      "MDC_P004.en": "OceanRunner",
+      "MDC_P006.en": "brand of transmedium vehicles manufactured by OceanRunner Marine",
+      "MDC_P010": "ORA100",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB301,ORB302,ORB303,ORB304,ORB305,ORB306}"
+    },
     "is_case_of": [],
     "applicable_properties": [
-      "BBAP001",
-      "BBAP002",
-      "BBAP003",
-      "BBAP004"
+      "ORB301",
+      "ORB302",
+      "ORB303",
+      "ORB304",
+      "ORB305",
+      "ORB306"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA100",
+    "superclass_type_property": "ORA100",
+    "type": "class"
   },
   {
-    "irdi": "BBB010",
-    "code": "BBB010",
+    "irdi": "ORA310",
+    "code": "ORA310",
     "preferred_name": "ORCA 30",
+    "preferred_name_ml": {
+      "en": "ORCA 30"
+    },
     "short_name": "ORCA30",
+    "short_name_ml": {
+      "en": "ORCA30"
+    },
     "definition": "compact transmedium vehicle, 8 m hull, 4 occupants, road-towed",
+    "definition_ml": {
+      "en": "compact transmedium vehicle, 8 m hull, 4 occupants, road-towed"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "BBB001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA310",
+      "MDC_P004.en": "ORCA 30",
+      "MDC_P005.en": "ORCA30",
+      "MDC_P006.en": "compact transmedium vehicle, 8 m hull, 4 occupants, road-towed",
+      "MDC_P010": "ORA300",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA300",
+    "superclass_type_property": "ORA300",
+    "type": "class"
   },
   {
-    "irdi": "BBB100",
-    "code": "BBB100",
+    "irdi": "ORA400",
+    "code": "ORA400",
     "preferred_name": "ORCA 30 Twin Diesel Premium Carbon Black",
+    "preferred_name_ml": {
+      "en": "ORCA 30 Twin Diesel Premium Carbon Black"
+    },
     "short_name": "ORCA30-TD-P-CB",
+    "short_name_ml": {
+      "en": "ORCA30-TD-P-CB"
+    },
     "definition": "ORCA 30 configured with twin diesel engines, premium interior, and carbon black hull",
+    "definition_ml": {
+      "en": "ORCA 30 configured with twin diesel engines, premium interior, and carbon black hull"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "BBB010",
+    "raw_properties": {
+      "MDC_P001_5": "ORA400",
+      "MDC_P004.en": "ORCA 30 Twin Diesel Premium Carbon Black",
+      "MDC_P005.en": "ORCA30-TD-P-CB",
+      "MDC_P006.en": "ORCA 30 configured with twin diesel engines, premium interior, and carbon black hull",
+      "MDC_P010": "ORA310",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P016": "{ORA202,ORA212,ORA222}"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
     "sub_class_selection": [
-      "AAA202",
-      "AAA212",
-      "AAA222"
-    ]
+      "ORA202",
+      "ORA212",
+      "ORA222"
+    ],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA310",
+    "superclass_type_property": "ORA310",
+    "type": "class"
   },
   {
-    "irdi": "BBB900001",
-    "code": "BBB900001",
+    "irdi": "ORI0001",
+    "code": "ORI0001",
     "preferred_name": "ORCA 30 Hull #0001",
+    "preferred_name_ml": {
+      "en": "ORCA 30 Hull #0001"
+    },
     "definition": "individual ORCA 30 Twin Diesel Premium Carbon Black, hull number ORCA30-TH-0001",
+    "definition_ml": {
+      "en": "individual ORCA 30 Twin Diesel Premium Carbon Black, hull number ORCA30-TH-0001"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "BBB100",
+    "raw_properties": {
+      "MDC_P001_5": "ORI0001",
+      "MDC_P004.en": "ORCA 30 Hull #0001",
+      "MDC_P006.en": "individual ORCA 30 Twin Diesel Premium Carbon Black, hull number ORCA30-TH-0001",
+      "MDC_P010": "ORA400",
+      "MDC_P011": "ITEM_CLASS",
+      "hull_identification_number": "ORCA30-TH-0001",
+      "vehicle_weight": "4200"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA400",
+    "superclass_type_property": "ORA400",
+    "type": "class"
   },
   {
-    "irdi": "BBB011",
-    "code": "BBB011",
+    "irdi": "ORA311",
+    "code": "ORA311",
     "preferred_name": "ORCA 50",
+    "preferred_name_ml": {
+      "en": "ORCA 50"
+    },
     "short_name": "ORCA50",
+    "short_name_ml": {
+      "en": "ORCA50"
+    },
     "definition": "full-size transmedium vehicle, 12 m hull, 6 occupants, standalone trailer",
+    "definition_ml": {
+      "en": "full-size transmedium vehicle, 12 m hull, 6 occupants, standalone trailer"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "BBB001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA311",
+      "MDC_P004.en": "ORCA 50",
+      "MDC_P005.en": "ORCA50",
+      "MDC_P006.en": "full-size transmedium vehicle, 12 m hull, 6 occupants, standalone trailer",
+      "MDC_P010": "ORA300",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA300",
+    "superclass_type_property": "ORA300",
+    "type": "class"
   },
   {
-    "irdi": "AAA200",
-    "code": "AAA200",
+    "irdi": "ORA200",
+    "code": "ORA200",
     "preferred_name": "Engine Type",
+    "preferred_name_ml": {
+      "en": "Engine Type"
+    },
     "definition": "categorical class whose subclasses enumerate the propulsion options available on an OceanRunner product",
+    "definition_ml": {
+      "en": "categorical class whose subclasses enumerate the propulsion options available on an OceanRunner product"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "CATEGORICAL_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA200",
+      "MDC_P004.en": "Engine Type",
+      "MDC_P006.en": "categorical class whose subclasses enumerate the propulsion options available on an OceanRunner product",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "CATEGORICAL_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA201",
-    "code": "AAA201",
+    "irdi": "ORA201",
+    "code": "ORA201",
     "preferred_name": "Single Diesel Engine",
+    "preferred_name_ml": {
+      "en": "Single Diesel Engine"
+    },
     "definition": "single inline diesel powerplant driving one propeller and one axle",
+    "definition_ml": {
+      "en": "single inline diesel powerplant driving one propeller and one axle"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA200",
+    "raw_properties": {
+      "MDC_P001_5": "ORA201",
+      "MDC_P004.en": "Single Diesel Engine",
+      "MDC_P006.en": "single inline diesel powerplant driving one propeller and one axle",
+      "MDC_P010": "ORA200",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA200",
+    "superclass_type_property": "ORA200",
+    "type": "class"
   },
   {
-    "irdi": "AAA202",
-    "code": "AAA202",
+    "irdi": "ORA202",
+    "code": "ORA202",
     "preferred_name": "Twin Diesel Engine",
+    "preferred_name_ml": {
+      "en": "Twin Diesel Engine"
+    },
     "definition": "paired diesel powerplants, one per hull sponson, driving dual propellers",
+    "definition_ml": {
+      "en": "paired diesel powerplants, one per hull sponson, driving dual propellers"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA200",
+    "raw_properties": {
+      "MDC_P001_5": "ORA202",
+      "MDC_P004.en": "Twin Diesel Engine",
+      "MDC_P006.en": "paired diesel powerplants, one per hull sponson, driving dual propellers",
+      "MDC_P010": "ORA200",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA200",
+    "superclass_type_property": "ORA200",
+    "type": "class"
   },
   {
-    "irdi": "AAA203",
-    "code": "AAA203",
+    "irdi": "ORA203",
+    "code": "ORA203",
     "preferred_name": "Electric Hybrid Engine",
+    "preferred_name_ml": {
+      "en": "Electric Hybrid Engine"
+    },
     "definition": "battery-electric primary propulsion with diesel range extender",
+    "definition_ml": {
+      "en": "battery-electric primary propulsion with diesel range extender"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA200",
+    "raw_properties": {
+      "MDC_P001_5": "ORA203",
+      "MDC_P004.en": "Electric Hybrid Engine",
+      "MDC_P006.en": "battery-electric primary propulsion with diesel range extender",
+      "MDC_P010": "ORA200",
+      "MDC_P011": "ITEM_CLASS",
+      "MDC_P014": "{ORB307,ORB308,ORB309}"
+    },
     "is_case_of": [],
-    "applicable_properties": [],
+    "applicable_properties": [
+      "ORB307",
+      "ORB308",
+      "ORB309"
+    ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA200",
+    "superclass_type_property": "ORA200",
+    "type": "class"
   },
   {
-    "irdi": "AAA210",
-    "code": "AAA210",
+    "irdi": "ORA210",
+    "code": "ORA210",
     "preferred_name": "Interior Package",
+    "preferred_name_ml": {
+      "en": "Interior Package"
+    },
     "definition": "categorical class whose subclasses enumerate the interior trim levels",
+    "definition_ml": {
+      "en": "categorical class whose subclasses enumerate the interior trim levels"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "CATEGORICAL_CLASS",
-    "superclass": "AAA001",
+    "raw_properties": {
+      "MDC_P001_5": "ORA210",
+      "MDC_P004.en": "Interior Package",
+      "MDC_P006.en": "categorical class whose subclasses enumerate the interior trim levels",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "CATEGORICAL_CLASS",
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA211",
-    "code": "AAA211",
+    "irdi": "ORA211",
+    "code": "ORA211",
     "preferred_name": "Standard Interior",
+    "preferred_name_ml": {
+      "en": "Standard Interior"
+    },
     "definition": "marine-grade vinyl trim with analogue instrumentation",
+    "definition_ml": {
+      "en": "marine-grade vinyl trim with analogue instrumentation"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA210",
+    "raw_properties": {
+      "MDC_P001_5": "ORA211",
+      "MDC_P004.en": "Standard Interior",
+      "MDC_P006.en": "marine-grade vinyl trim with analogue instrumentation",
+      "MDC_P010": "ORA210",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA210",
+    "superclass_type_property": "ORA210",
+    "type": "class"
   },
   {
-    "irdi": "AAA212",
-    "code": "AAA212",
+    "irdi": "ORA212",
+    "code": "ORA212",
     "preferred_name": "Premium Interior",
+    "preferred_name_ml": {
+      "en": "Premium Interior"
+    },
     "definition": "hand-stitched leather trim with glass cockpit display and rear bench seat",
+    "definition_ml": {
+      "en": "hand-stitched leather trim with glass cockpit display and rear bench seat"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA210",
+    "raw_properties": {
+      "MDC_P001_5": "ORA212",
+      "MDC_P004.en": "Premium Interior",
+      "MDC_P006.en": "hand-stitched leather trim with glass cockpit display and rear bench seat",
+      "MDC_P010": "ORA210",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA210",
+    "superclass_type_property": "ORA210",
+    "type": "class"
   },
   {
-    "irdi": "AAA220",
-    "code": "AAA220",
+    "irdi": "ORA220",
+    "code": "ORA220",
     "preferred_name": "Hull Finish",
+    "preferred_name_ml": {
+      "en": "Hull Finish"
+    },
     "definition": "categorical class whose subclasses enumerate the hull surface treatments",
+    "definition_ml": {
+      "en": "categorical class whose subclasses enumerate the hull surface treatments"
+    },
     "synonyms": [],
-    "type": "class",
+    "raw_properties": {
+      "MDC_P001_5": "ORA220",
+      "MDC_P004.en": "Hull Finish",
+      "MDC_P006.en": "categorical class whose subclasses enumerate the hull surface treatments",
+      "MDC_P010": "ORA001",
+      "MDC_P011": "CATEGORICAL_CLASS"
+    },
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
     "class_type": "CATEGORICAL_CLASS",
-    "superclass": "AAA001",
-    "is_case_of": [],
-    "applicable_properties": [],
-    "imported_properties": [],
-    "sub_class_selection": []
+    "superclass": "ORA001",
+    "superclass_type_property": "ORA001",
+    "type": "class"
   },
   {
-    "irdi": "AAA221",
-    "code": "AAA221",
+    "irdi": "ORA221",
+    "code": "ORA221",
     "preferred_name": "Gelcoat White",
+    "preferred_name_ml": {
+      "en": "Gelcoat White"
+    },
     "definition": "standard white gelcoat hull with antifouling bottom paint",
+    "definition_ml": {
+      "en": "standard white gelcoat hull with antifouling bottom paint"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA220",
+    "raw_properties": {
+      "MDC_P001_5": "ORA221",
+      "MDC_P004.en": "Gelcoat White",
+      "MDC_P006.en": "standard white gelcoat hull with antifouling bottom paint",
+      "MDC_P010": "ORA220",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA220",
+    "superclass_type_property": "ORA220",
+    "type": "class"
   },
   {
-    "irdi": "AAA222",
-    "code": "AAA222",
+    "irdi": "ORA222",
+    "code": "ORA222",
     "preferred_name": "Carbon Black",
+    "preferred_name_ml": {
+      "en": "Carbon Black"
+    },
     "definition": "carbon-fibre reinforced hull with black epoxy topcoat",
+    "definition_ml": {
+      "en": "carbon-fibre reinforced hull with black epoxy topcoat"
+    },
     "synonyms": [],
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "AAA220",
+    "raw_properties": {
+      "MDC_P001_5": "ORA222",
+      "MDC_P004.en": "Carbon Black",
+      "MDC_P006.en": "carbon-fibre reinforced hull with black epoxy topcoat",
+      "MDC_P010": "ORA220",
+      "MDC_P011": "ITEM_CLASS"
+    },
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "applicable_documents": [],
+    "imported_documents": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "ORA220",
+    "superclass_type_property": "ORA220",
+    "type": "class"
   },
   {
-    "irdi": "AAAP001",
-    "code": "AAAP001",
+    "irdi": "ORB001",
+    "code": "ORB001",
     "preferred_name": "vehicle length",
+    "preferred_name_ml": {
+      "en": "vehicle length"
+    },
     "definition": "overall length of the vehicle, inclusive of all fixed structures",
+    "definition_ml": {
+      "en": "overall length of the vehicle, inclusive of all fixed structures"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB001",
+      "MDC_P004.en": "vehicle length",
+      "MDC_P006.en": "overall length of the vehicle, inclusive of all fixed structures",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
     "data_type": "REAL_TYPE",
-    "unit": "metre",
-    "definition_class": "AAA001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP002",
-    "code": "AAAP002",
-    "preferred_name": "vehicle weight",
-    "definition": "mass of the vehicle in ready-to-operate condition",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "kilogram",
-    "definition_class": "AAA001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP003",
-    "code": "AAAP003",
-    "preferred_name": "vehicle capacity",
-    "definition": "maximum number of occupants the vehicle is type-approved to carry",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "INT_TYPE",
-    "definition_class": "AAA001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP010",
-    "code": "AAAP010",
-    "preferred_name": "hull length",
-    "definition": "overall length of the hull measured at the design waterline",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "metre",
-    "definition_class": "AAA010",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP011",
-    "code": "AAAP011",
-    "preferred_name": "water displacement",
-    "definition": "mass of water displaced by the hull at rest in fresh water",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "kilogram",
-    "definition_class": "AAA010",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP012",
-    "code": "AAAP012",
-    "preferred_name": "maximum speed in knots",
-    "definition": "maximum sustained speed on the water surface",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "knot",
-    "definition_class": "AAA010",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP020",
-    "code": "AAAP020",
-    "preferred_name": "wheelbase",
-    "definition": "distance between the centres of the front and rear wheel contact patches",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "metre",
-    "definition_class": "AAA020",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP021",
-    "code": "AAAP021",
-    "preferred_name": "tire count",
-    "definition": "number of road-contacting tires fitted as standard equipment",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "INT_TYPE",
-    "definition_class": "AAA020",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP022",
-    "code": "AAAP022",
-    "preferred_name": "maximum road speed",
-    "definition": "maximum sustained speed on a paved, level road",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "kilometre_per_hour",
-    "definition_class": "AAA020",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP030",
-    "code": "AAAP030",
-    "preferred_name": "maximum depth rating",
-    "definition": "maximum depth at which the vehicle is certified to operate",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "metre",
-    "definition_class": "AAA030",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP031",
-    "code": "AAAP031",
-    "preferred_name": "submerged endurance",
-    "definition": "maximum time the vehicle can remain continuously submerged",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "REAL_TYPE",
-    "unit": "hour",
-    "definition_class": "AAA030",
-    "data_element_type": "NON_DEPENDENT_P_DET"
-  },
-  {
-    "irdi": "AAAP100",
-    "code": "AAAP100",
-    "preferred_name": "operating mode",
-    "definition": "current operating regime of the transmedium vehicle",
-    "synonyms": [],
-    "type": "property",
-    "data_type": "ENUM_STRING_TYPE(vehicle_mode_enum)",
-    "definition_class": "AAA100",
     "data_element_type": "NON_DEPENDENT_P_DET",
-    "value_list": "AAAE001"
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
   },
   {
-    "irdi": "AAAP101",
-    "code": "AAAP101",
+    "irdi": "ORB002",
+    "code": "ORB002",
+    "preferred_name": "vehicle weight",
+    "preferred_name_ml": {
+      "en": "vehicle weight"
+    },
+    "definition": "mass of the vehicle in ready-to-operate condition",
+    "definition_ml": {
+      "en": "mass of the vehicle in ready-to-operate condition"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB002",
+      "MDC_P004.en": "vehicle weight",
+      "MDC_P006.en": "mass of the vehicle in ready-to-operate condition",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilogram"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA594",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilogram"
+  },
+  {
+    "irdi": "ORB003",
+    "code": "ORB003",
+    "preferred_name": "vehicle capacity",
+    "preferred_name_ml": {
+      "en": "vehicle capacity"
+    },
+    "definition": "maximum number of occupants the vehicle is type-approved to carry",
+    "definition_ml": {
+      "en": "maximum number of occupants the vehicle is type-approved to carry"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB003",
+      "MDC_P004.en": "vehicle capacity",
+      "MDC_P006.en": "maximum number of occupants the vehicle is type-approved to carry",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "INT_TYPE"
+    },
+    "definition_class": "ORA001",
+    "alternative_units": [],
+    "data_type": "INT_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ORB004",
+    "code": "ORB004",
+    "preferred_name": "vehicle beam",
+    "preferred_name_ml": {
+      "en": "vehicle beam"
+    },
+    "definition": "maximum width of the vehicle at its widest point",
+    "definition_ml": {
+      "en": "maximum width of the vehicle at its widest point"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB004",
+      "MDC_P004.en": "vehicle beam",
+      "MDC_P006.en": "maximum width of the vehicle at its widest point",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB005",
+    "code": "ORB005",
+    "preferred_name": "vehicle height",
+    "preferred_name_ml": {
+      "en": "vehicle height"
+    },
+    "definition": "height of the vehicle from waterline or ground to its highest fixed point",
+    "definition_ml": {
+      "en": "height of the vehicle from waterline or ground to its highest fixed point"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB005",
+      "MDC_P004.en": "vehicle height",
+      "MDC_P006.en": "height of the vehicle from waterline or ground to its highest fixed point",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB006",
+    "code": "ORB006",
+    "preferred_name": "propulsion power",
+    "preferred_name_ml": {
+      "en": "propulsion power"
+    },
+    "definition": "combined rated power of all propulsion units",
+    "definition_ml": {
+      "en": "combined rated power of all propulsion units"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB006",
+      "MDC_P004.en": "propulsion power",
+      "MDC_P006.en": "combined rated power of all propulsion units",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilowatt"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA583",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilowatt"
+  },
+  {
+    "irdi": "ORB007",
+    "code": "ORB007",
+    "preferred_name": "operating range",
+    "preferred_name_ml": {
+      "en": "operating range"
+    },
+    "definition": "distance the vehicle can travel on one full load of fuel or energy",
+    "definition_ml": {
+      "en": "distance the vehicle can travel on one full load of fuel or energy"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB007",
+      "MDC_P004.en": "operating range",
+      "MDC_P006.en": "distance the vehicle can travel on one full load of fuel or energy",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "nautical_mile"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAB065",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "nautical mile"
+  },
+  {
+    "irdi": "ORB008",
+    "code": "ORB008",
+    "preferred_name": "fuel capacity",
+    "preferred_name_ml": {
+      "en": "fuel capacity"
+    },
+    "definition": "total volume of fuel or energy carrier stored on board",
+    "definition_ml": {
+      "en": "total volume of fuel or energy carrier stored on board"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB008",
+      "MDC_P004.en": "fuel capacity",
+      "MDC_P006.en": "total volume of fuel or energy carrier stored on board",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA001",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "litre"
+    },
+    "definition_class": "ORA001",
+    "unit": "0112/2///62720#UAA649",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "litre"
+  },
+  {
+    "irdi": "ORB010",
+    "code": "ORB010",
+    "preferred_name": "hull length",
+    "preferred_name_ml": {
+      "en": "hull length"
+    },
+    "definition": "overall length of the hull measured at the design waterline",
+    "definition_ml": {
+      "en": "overall length of the hull measured at the design waterline"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB010",
+      "MDC_P004.en": "hull length",
+      "MDC_P006.en": "overall length of the hull measured at the design waterline",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA010",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB011",
+    "code": "ORB011",
+    "preferred_name": "water displacement",
+    "preferred_name_ml": {
+      "en": "water displacement"
+    },
+    "definition": "mass of water displaced by the hull at rest in fresh water",
+    "definition_ml": {
+      "en": "mass of water displaced by the hull at rest in fresh water"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB011",
+      "MDC_P004.en": "water displacement",
+      "MDC_P006.en": "mass of water displaced by the hull at rest in fresh water",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilogram"
+    },
+    "definition_class": "ORA010",
+    "unit": "0112/2///62720#UAA594",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilogram"
+  },
+  {
+    "irdi": "ORB012",
+    "code": "ORB012",
+    "preferred_name": "maximum speed in knots",
+    "preferred_name_ml": {
+      "en": "maximum speed in knots"
+    },
+    "definition": "maximum sustained speed on the water surface",
+    "definition_ml": {
+      "en": "maximum sustained speed on the water surface"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB012",
+      "MDC_P004.en": "maximum speed in knots",
+      "MDC_P006.en": "maximum sustained speed on the water surface",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "knot"
+    },
+    "definition_class": "ORA010",
+    "unit": "0112/2///62720#UAB110",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "knot"
+  },
+  {
+    "irdi": "ORB013",
+    "code": "ORB013",
+    "preferred_name": "draft",
+    "preferred_name_ml": {
+      "en": "draft"
+    },
+    "definition": "depth of the hull below the waterline when fully laden",
+    "definition_ml": {
+      "en": "depth of the hull below the waterline when fully laden"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB013",
+      "MDC_P004.en": "draft",
+      "MDC_P006.en": "depth of the hull below the waterline when fully laden",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA010",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB014",
+    "code": "ORB014",
+    "preferred_name": "berth count",
+    "preferred_name_ml": {
+      "en": "berth count"
+    },
+    "definition": "number of sleeping berths fitted below deck",
+    "definition_ml": {
+      "en": "number of sleeping berths fitted below deck"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB014",
+      "MDC_P004.en": "berth count",
+      "MDC_P006.en": "number of sleeping berths fitted below deck",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "INT_TYPE"
+    },
+    "definition_class": "ORA010",
+    "alternative_units": [],
+    "data_type": "INT_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ORB015",
+    "code": "ORB015",
+    "preferred_name": "hull form",
+    "preferred_name_ml": {
+      "en": "hull form"
+    },
+    "definition": "arrangement of hull bodies",
+    "definition_ml": {
+      "en": "arrangement of hull bodies"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB015",
+      "MDC_P004.en": "hull form",
+      "MDC_P006.en": "arrangement of hull bodies",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA010",
+      "MDC_P022": "ENUM_STRING_TYPE(hull_form_enum)"
+    },
+    "definition_class": "ORA010",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(hull_form_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ORE002"
+  },
+  {
+    "irdi": "ORB020",
+    "code": "ORB020",
+    "preferred_name": "wheelbase",
+    "preferred_name_ml": {
+      "en": "wheelbase"
+    },
+    "definition": "distance between the centres of the front and rear wheel contact patches",
+    "definition_ml": {
+      "en": "distance between the centres of the front and rear wheel contact patches"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB020",
+      "MDC_P004.en": "wheelbase",
+      "MDC_P006.en": "distance between the centres of the front and rear wheel contact patches",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA020",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB021",
+    "code": "ORB021",
+    "preferred_name": "tire count",
+    "preferred_name_ml": {
+      "en": "tire count"
+    },
+    "definition": "number of road-contacting tires fitted as standard equipment",
+    "definition_ml": {
+      "en": "number of road-contacting tires fitted as standard equipment"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB021",
+      "MDC_P004.en": "tire count",
+      "MDC_P006.en": "number of road-contacting tires fitted as standard equipment",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "INT_TYPE"
+    },
+    "definition_class": "ORA020",
+    "alternative_units": [],
+    "data_type": "INT_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ORB022",
+    "code": "ORB022",
+    "preferred_name": "maximum road speed",
+    "preferred_name_ml": {
+      "en": "maximum road speed"
+    },
+    "definition": "maximum sustained speed on a paved, level road",
+    "definition_ml": {
+      "en": "maximum sustained speed on a paved, level road"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB022",
+      "MDC_P004.en": "maximum road speed",
+      "MDC_P006.en": "maximum sustained speed on a paved, level road",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilometre_per_hour"
+    },
+    "definition_class": "ORA020",
+    "unit": "0112/2///62720#UAA638",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilometre per hour"
+  },
+  {
+    "irdi": "ORB023",
+    "code": "ORB023",
+    "preferred_name": "ground clearance",
+    "preferred_name_ml": {
+      "en": "ground clearance"
+    },
+    "definition": "distance between the lowest fixed point of the vehicle and the road surface",
+    "definition_ml": {
+      "en": "distance between the lowest fixed point of the vehicle and the road surface"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB023",
+      "MDC_P004.en": "ground clearance",
+      "MDC_P006.en": "distance between the lowest fixed point of the vehicle and the road surface",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA020",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB024",
+    "code": "ORB024",
+    "preferred_name": "seating capacity",
+    "preferred_name_ml": {
+      "en": "seating capacity"
+    },
+    "definition": "number of seated occupants on the road",
+    "definition_ml": {
+      "en": "number of seated occupants on the road"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB024",
+      "MDC_P004.en": "seating capacity",
+      "MDC_P006.en": "number of seated occupants on the road",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "INT_TYPE"
+    },
+    "definition_class": "ORA020",
+    "alternative_units": [],
+    "data_type": "INT_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ORB025",
+    "code": "ORB025",
+    "preferred_name": "drive layout",
+    "preferred_name_ml": {
+      "en": "drive layout"
+    },
+    "definition": "which wheels are driven by the powertrain on the road",
+    "definition_ml": {
+      "en": "which wheels are driven by the powertrain on the road"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB025",
+      "MDC_P004.en": "drive layout",
+      "MDC_P006.en": "which wheels are driven by the powertrain on the road",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "ENUM_STRING_TYPE(drive_layout_enum)"
+    },
+    "definition_class": "ORA020",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(drive_layout_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ORE003"
+  },
+  {
+    "irdi": "ORB026",
+    "code": "ORB026",
+    "preferred_name": "turning circle",
+    "preferred_name_ml": {
+      "en": "turning circle"
+    },
+    "definition": "diameter of the smallest full turn on a paved surface",
+    "definition_ml": {
+      "en": "diameter of the smallest full turn on a paved surface"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB026",
+      "MDC_P004.en": "turning circle",
+      "MDC_P006.en": "diameter of the smallest full turn on a paved surface",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA020",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA020",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB030",
+    "code": "ORB030",
+    "preferred_name": "maximum depth rating",
+    "preferred_name_ml": {
+      "en": "maximum depth rating"
+    },
+    "definition": "maximum depth at which the vehicle is certified to operate",
+    "definition_ml": {
+      "en": "maximum depth at which the vehicle is certified to operate"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB030",
+      "MDC_P004.en": "maximum depth rating",
+      "MDC_P006.en": "maximum depth at which the vehicle is certified to operate",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA030",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA030",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB031",
+    "code": "ORB031",
+    "preferred_name": "submerged endurance",
+    "preferred_name_ml": {
+      "en": "submerged endurance"
+    },
+    "definition": "maximum time the vehicle can remain continuously submerged",
+    "definition_ml": {
+      "en": "maximum time the vehicle can remain continuously submerged"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB031",
+      "MDC_P004.en": "submerged endurance",
+      "MDC_P006.en": "maximum time the vehicle can remain continuously submerged",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA030",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "hour"
+    },
+    "definition_class": "ORA030",
+    "unit": "0112/2///62720#UAA525",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "hour"
+  },
+  {
+    "irdi": "ORB032",
+    "code": "ORB032",
+    "preferred_name": "test depth",
+    "preferred_name_ml": {
+      "en": "test depth"
+    },
+    "definition": "depth at which the pressure hull was certified by trial",
+    "definition_ml": {
+      "en": "depth at which the pressure hull was certified by trial"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB032",
+      "MDC_P004.en": "test depth",
+      "MDC_P006.en": "depth at which the pressure hull was certified by trial",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA030",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "metre"
+    },
+    "definition_class": "ORA030",
+    "unit": "0112/2///62720#UAA726",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "metre"
+  },
+  {
+    "irdi": "ORB033",
+    "code": "ORB033",
+    "preferred_name": "acoustic signature",
+    "preferred_name_ml": {
+      "en": "acoustic signature"
+    },
+    "definition": "broadband radiated noise level at cruise, referenced to 1 micropascal at 1 metre",
+    "definition_ml": {
+      "en": "broadband radiated noise level at cruise, referenced to 1 micropascal at 1 metre"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB033",
+      "MDC_P004.en": "acoustic signature",
+      "MDC_P006.en": "broadband radiated noise level at cruise, referenced to 1 micropascal at 1 metre",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA030",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "decibel"
+    },
+    "definition_class": "ORA030",
+    "unit": "0112/2///62720#UAA409",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "decibel"
+  },
+  {
+    "irdi": "ORB034",
+    "code": "ORB034",
+    "preferred_name": "ballast capacity",
+    "preferred_name_ml": {
+      "en": "ballast capacity"
+    },
+    "definition": "total volume of the ballast tanks",
+    "definition_ml": {
+      "en": "total volume of the ballast tanks"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB034",
+      "MDC_P004.en": "ballast capacity",
+      "MDC_P006.en": "total volume of the ballast tanks",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA030",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "litre"
+    },
+    "definition_class": "ORA030",
+    "unit": "0112/2///62720#UAA649",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "litre"
+  },
+  {
+    "irdi": "ORB100",
+    "code": "ORB100",
+    "preferred_name": "operating mode",
+    "preferred_name_ml": {
+      "en": "operating mode"
+    },
+    "definition": "current operating regime of the transmedium vehicle",
+    "definition_ml": {
+      "en": "current operating regime of the transmedium vehicle"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB100",
+      "MDC_P004.en": "operating mode",
+      "MDC_P006.en": "current operating regime of the transmedium vehicle",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "ENUM_STRING_TYPE(vehicle_mode_enum)"
+    },
+    "definition_class": "ORA100",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(vehicle_mode_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ORE001"
+  },
+  {
+    "irdi": "ORB101",
+    "code": "ORB101",
     "preferred_name": "surface water speed",
+    "preferred_name_ml": {
+      "en": "surface water speed"
+    },
     "definition": "maximum sustained speed while operating on the water surface",
+    "definition_ml": {
+      "en": "maximum sustained speed while operating on the water surface"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB101",
+      "MDC_P004.en": "surface water speed",
+      "MDC_P006.en": "maximum sustained speed while operating on the water surface",
+      "MDC_P020": "CONDITION_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "knot",
+      "MDC_P028": "operating_mode == surface_water"
+    },
+    "definition_class": "ORA100",
+    "unit": "0112/2///62720#UAB110",
+    "alternative_units": [],
     "data_type": "REAL_TYPE",
-    "unit": "knot",
-    "definition_class": "AAA100",
+    "data_element_type": "CONDITION_DET",
+    "property_data_element_type": "CONDITION_DET",
+    "condition_raw": "operating_mode == surface_water",
     "condition": "operating_mode == surface_water",
-    "data_element_type": "CONDITION_DET"
+    "type": "property",
+    "unit_text": "knot"
   },
   {
-    "irdi": "AAAP102",
-    "code": "AAAP102",
+    "irdi": "ORB102",
+    "code": "ORB102",
     "preferred_name": "road speed",
+    "preferred_name_ml": {
+      "en": "road speed"
+    },
     "definition": "maximum sustained speed while operating on a paved road",
+    "definition_ml": {
+      "en": "maximum sustained speed while operating on a paved road"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB102",
+      "MDC_P004.en": "road speed",
+      "MDC_P006.en": "maximum sustained speed while operating on a paved road",
+      "MDC_P020": "CONDITION_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilometre_per_hour",
+      "MDC_P028": "operating_mode == road"
+    },
+    "definition_class": "ORA100",
+    "unit": "0112/2///62720#UAA638",
+    "alternative_units": [],
     "data_type": "REAL_TYPE",
-    "unit": "kilometre_per_hour",
-    "definition_class": "AAA100",
+    "data_element_type": "CONDITION_DET",
+    "property_data_element_type": "CONDITION_DET",
+    "condition_raw": "operating_mode == road",
     "condition": "operating_mode == road",
-    "data_element_type": "CONDITION_DET"
+    "type": "property",
+    "unit_text": "kilometre per hour"
   },
   {
-    "irdi": "AAAP103",
-    "code": "AAAP103",
+    "irdi": "ORB103",
+    "code": "ORB103",
     "preferred_name": "submerged speed",
+    "preferred_name_ml": {
+      "en": "submerged speed"
+    },
     "definition": "maximum sustained speed while fully submerged",
+    "definition_ml": {
+      "en": "maximum sustained speed while fully submerged"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB103",
+      "MDC_P004.en": "submerged speed",
+      "MDC_P006.en": "maximum sustained speed while fully submerged",
+      "MDC_P020": "CONDITION_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "knot",
+      "MDC_P028": "operating_mode == underwater"
+    },
+    "definition_class": "ORA100",
+    "unit": "0112/2///62720#UAB110",
+    "alternative_units": [],
     "data_type": "REAL_TYPE",
-    "unit": "knot",
-    "definition_class": "AAA100",
+    "data_element_type": "CONDITION_DET",
+    "property_data_element_type": "CONDITION_DET",
+    "condition_raw": "operating_mode == underwater",
     "condition": "operating_mode == underwater",
-    "data_element_type": "CONDITION_DET"
+    "type": "property",
+    "unit_text": "knot"
   },
   {
-    "irdi": "BBAP001",
-    "code": "BBAP001",
+    "irdi": "ORB104",
+    "code": "ORB104",
+    "preferred_name": "transition time",
+    "preferred_name_ml": {
+      "en": "transition time"
+    },
+    "definition": "time to change between two operating modes, e.g. road to surface water",
+    "definition_ml": {
+      "en": "time to change between two operating modes, e.g. road to surface water"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB104",
+      "MDC_P004.en": "transition time",
+      "MDC_P006.en": "time to change between two operating modes, e.g. road to surface water",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "minute"
+    },
+    "definition_class": "ORA100",
+    "unit": "0112/2///62720#UAA842",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "minute"
+  },
+  {
+    "irdi": "ORB105",
+    "code": "ORB105",
+    "preferred_name": "crew size",
+    "preferred_name_ml": {
+      "en": "crew size"
+    },
+    "definition": "number of crew required to operate the vehicle",
+    "definition_ml": {
+      "en": "number of crew required to operate the vehicle"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB105",
+      "MDC_P004.en": "crew size",
+      "MDC_P006.en": "number of crew required to operate the vehicle",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA100",
+      "MDC_P022": "INT_TYPE"
+    },
+    "definition_class": "ORA100",
+    "alternative_units": [],
+    "data_type": "INT_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
+  },
+  {
+    "irdi": "ORB301",
+    "code": "ORB301",
     "preferred_name": "engine type",
+    "preferred_name_ml": {
+      "en": "engine type"
+    },
     "definition": "propulsion configuration selected for this OceanRunner product",
+    "definition_ml": {
+      "en": "propulsion configuration selected for this OceanRunner product"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB301",
+      "MDC_P004.en": "engine type",
+      "MDC_P006.en": "propulsion configuration selected for this OceanRunner product",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "CLASS_REFERENCE(EngineType)"
+    },
+    "definition_class": "ORA300",
+    "alternative_units": [],
     "data_type": "CLASS_REFERENCE(EngineType)",
-    "definition_class": "BBB001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
   },
   {
-    "irdi": "BBAP002",
-    "code": "BBAP002",
+    "irdi": "ORB302",
+    "code": "ORB302",
     "preferred_name": "interior package",
+    "preferred_name_ml": {
+      "en": "interior package"
+    },
     "definition": "interior trim level selected for this OceanRunner product",
+    "definition_ml": {
+      "en": "interior trim level selected for this OceanRunner product"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB302",
+      "MDC_P004.en": "interior package",
+      "MDC_P006.en": "interior trim level selected for this OceanRunner product",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "CLASS_REFERENCE(InteriorPackage)"
+    },
+    "definition_class": "ORA300",
+    "alternative_units": [],
     "data_type": "CLASS_REFERENCE(InteriorPackage)",
-    "definition_class": "BBB001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
   },
   {
-    "irdi": "BBAP003",
-    "code": "BBAP003",
+    "irdi": "ORB303",
+    "code": "ORB303",
     "preferred_name": "hull finish",
+    "preferred_name_ml": {
+      "en": "hull finish"
+    },
     "definition": "hull surface treatment selected for this OceanRunner product",
+    "definition_ml": {
+      "en": "hull surface treatment selected for this OceanRunner product"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB303",
+      "MDC_P004.en": "hull finish",
+      "MDC_P006.en": "hull surface treatment selected for this OceanRunner product",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "CLASS_REFERENCE(HullFinish)"
+    },
+    "definition_class": "ORA300",
+    "alternative_units": [],
     "data_type": "CLASS_REFERENCE(HullFinish)",
-    "definition_class": "BBB001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
   },
   {
-    "irdi": "BBAP004",
-    "code": "BBAP004",
+    "irdi": "ORB304",
+    "code": "ORB304",
     "preferred_name": "hull identification number",
+    "preferred_name_ml": {
+      "en": "hull identification number"
+    },
     "definition": "unique serial number stamped on the hull at manufacture",
+    "definition_ml": {
+      "en": "unique serial number stamped on the hull at manufacture"
+    },
     "synonyms": [],
-    "type": "property",
+    "raw_properties": {
+      "MDC_P001_6": "ORB304",
+      "MDC_P004.en": "hull identification number",
+      "MDC_P006.en": "unique serial number stamped on the hull at manufacture",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "STRING_TYPE"
+    },
+    "definition_class": "ORA300",
+    "alternative_units": [],
     "data_type": "STRING_TYPE",
-    "definition_class": "BBB001",
-    "data_element_type": "NON_DEPENDENT_P_DET"
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property"
   },
   {
-    "irdi": "AAAE001",
-    "code": "AAAE001",
-    "preferred_name": "vehicle operating mode",
-    "definition": "enumeration of the operating regimes of a transmedium vehicle",
+    "irdi": "ORB305",
+    "code": "ORB305",
+    "preferred_name": "navigation package",
+    "preferred_name_ml": {
+      "en": "navigation package"
+    },
+    "definition": "navigation electronics suite fitted as standard",
+    "definition_ml": {
+      "en": "navigation electronics suite fitted as standard"
+    },
     "synonyms": [],
-    "type": "value_list",
+    "raw_properties": {
+      "MDC_P001_6": "ORB305",
+      "MDC_P004.en": "navigation package",
+      "MDC_P006.en": "navigation electronics suite fitted as standard",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "ENUM_STRING_TYPE(navigation_package_enum)"
+    },
+    "definition_class": "ORA300",
+    "alternative_units": [],
+    "data_type": "ENUM_STRING_TYPE(navigation_package_enum)",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "value_list": "ORE004"
+  },
+  {
+    "irdi": "ORB306",
+    "code": "ORB306",
+    "preferred_name": "warranty period",
+    "preferred_name_ml": {
+      "en": "warranty period"
+    },
+    "definition": "duration of the structural hull warranty",
+    "definition_ml": {
+      "en": "duration of the structural hull warranty"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB306",
+      "MDC_P004.en": "warranty period",
+      "MDC_P006.en": "duration of the structural hull warranty",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA300",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "month"
+    },
+    "definition_class": "ORA300",
+    "unit": "0112/2///62720#UAA880",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "month"
+  },
+  {
+    "irdi": "ORB307",
+    "code": "ORB307",
+    "preferred_name": "battery capacity",
+    "preferred_name_ml": {
+      "en": "battery capacity"
+    },
+    "definition": "usable energy capacity of the propulsion battery pack",
+    "definition_ml": {
+      "en": "usable energy capacity of the propulsion battery pack"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB307",
+      "MDC_P004.en": "battery capacity",
+      "MDC_P006.en": "usable energy capacity of the propulsion battery pack",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA203",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilowatt_hour"
+    },
+    "definition_class": "ORA203",
+    "unit": "0112/2///62720#UAA584",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilowatt hour"
+  },
+  {
+    "irdi": "ORB308",
+    "code": "ORB308",
+    "preferred_name": "charging power",
+    "preferred_name_ml": {
+      "en": "charging power"
+    },
+    "definition": "maximum shore-power charging rate the battery pack accepts",
+    "definition_ml": {
+      "en": "maximum shore-power charging rate the battery pack accepts"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB308",
+      "MDC_P004.en": "charging power",
+      "MDC_P006.en": "maximum shore-power charging rate the battery pack accepts",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA203",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilowatt"
+    },
+    "definition_class": "ORA203",
+    "unit": "0112/2///62720#UAA583",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilowatt"
+  },
+  {
+    "irdi": "ORB309",
+    "code": "ORB309",
+    "preferred_name": "electric range",
+    "preferred_name_ml": {
+      "en": "electric range"
+    },
+    "definition": "distance the vessel covers on battery power alone at cruising speed",
+    "definition_ml": {
+      "en": "distance the vessel covers on battery power alone at cruising speed"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "ORB309",
+      "MDC_P004.en": "electric range",
+      "MDC_P006.en": "distance the vessel covers on battery power alone at cruising speed",
+      "MDC_P020": "NON_DEPENDENT_P_DET",
+      "MDC_P021": "ORA203",
+      "MDC_P022": "REAL_TYPE",
+      "MDC_P041": "kilometre"
+    },
+    "definition_class": "ORA203",
+    "unit": "0112/2///62720#UAA637",
+    "alternative_units": [],
+    "data_type": "REAL_TYPE",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "property_data_element_type": "NON_DEPENDENT_P_DET",
+    "type": "property",
+    "unit_text": "kilometre"
+  },
+  {
+    "irdi": "ORE001",
+    "code": "ORE001",
+    "preferred_name": "vehicle operating mode",
+    "preferred_name_ml": {
+      "en": "vehicle operating mode"
+    },
+    "definition": "enumeration of the operating regimes of a transmedium vehicle",
+    "definition_ml": {
+      "en": "enumeration of the operating regimes of a transmedium vehicle"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ORE001",
+      "MDC_P004.en": "vehicle operating mode",
+      "MDC_P006.en": "enumeration of the operating regimes of a transmedium vehicle",
+      "MDC_P044": "{surface_water,road,underwater}"
+    },
     "term_irdis": [],
     "code_list": [
       "surface_water",
       "road",
       "underwater"
-    ]
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ORE002",
+    "code": "ORE002",
+    "preferred_name": "hull form categories",
+    "preferred_name_ml": {
+      "en": "hull form categories"
+    },
+    "definition": "enumeration of the hull body arrangements",
+    "definition_ml": {
+      "en": "enumeration of the hull body arrangements"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ORE002",
+      "MDC_P004.en": "hull form categories",
+      "MDC_P006.en": "enumeration of the hull body arrangements",
+      "MDC_P044": "{Monohull,Catamaran,Trimaran}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Monohull",
+      "Catamaran",
+      "Trimaran"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ORE003",
+    "code": "ORE003",
+    "preferred_name": "drive layout categories",
+    "preferred_name_ml": {
+      "en": "drive layout categories"
+    },
+    "definition": "enumeration of road drivetrain layouts",
+    "definition_ml": {
+      "en": "enumeration of road drivetrain layouts"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ORE003",
+      "MDC_P004.en": "drive layout categories",
+      "MDC_P006.en": "enumeration of road drivetrain layouts",
+      "MDC_P044": "{Front_wheel_drive,Rear_wheel_drive,All_wheel_drive}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Front_wheel_drive",
+      "Rear_wheel_drive",
+      "All_wheel_drive"
+    ],
+    "type": "value_list"
+  },
+  {
+    "irdi": "ORE004",
+    "code": "ORE004",
+    "preferred_name": "navigation package categories",
+    "preferred_name_ml": {
+      "en": "navigation package categories"
+    },
+    "definition": "enumeration of navigation electronics suites",
+    "definition_ml": {
+      "en": "enumeration of navigation electronics suites"
+    },
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_12": "ORE004",
+      "MDC_P004.en": "navigation package categories",
+      "MDC_P006.en": "enumeration of navigation electronics suites",
+      "MDC_P044": "{Standard,Chartplotter,Full_avionics}"
+    },
+    "term_irdis": [],
+    "code_list": [
+      "Standard",
+      "Chartplotter",
+      "Full_avionics"
+    ],
+    "type": "value_list"
   }
 ]
